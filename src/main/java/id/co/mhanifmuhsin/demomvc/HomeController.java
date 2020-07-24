@@ -14,10 +14,10 @@ public class HomeController {
 //        return "home";
 //    }
     @Autowired
-    private ImplementDao implementDao;
+    private HomeDao homeDao;
 
     @GetMapping("/home")
     public @ResponseBody String home(){
-        return implementDao.getDataHome();
+        return homeDao.getDataHome();
     }
 }
