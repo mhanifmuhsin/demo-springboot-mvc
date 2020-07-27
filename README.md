@@ -1,2 +1,2 @@
 # demo-springboot-mvc
-Mengenal Spring Boot MVC + Thymeleaf
+Demo Spring Boot MVC + Thymeleaf
